@@ -15,7 +15,8 @@ public class _07_Decrement {
 
         int c = 15;
         // post-decrement, value is returned first and then it's decreased by 1
-        System.out.println(c--);
+        System.out.println(c--); // print 15
+        System.out.println(c);
 
     }
 
