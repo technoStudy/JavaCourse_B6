@@ -1,4 +1,4 @@
-package Day11;
+package Day11.MathClass;
 
 public class MathClassTask {
 
