@@ -1,6 +1,6 @@
 package Day14;
 
-public class Task4_WhileLoop {
+public class Task4_WhileLoop_SumOddNumbers {
 
     /*
 

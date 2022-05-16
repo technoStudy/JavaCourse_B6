@@ -1,6 +1,6 @@
 package Day14;
 
-public class Task3_WhileLoop {
+public class Task3_WhileLoop_PrintEvenNumbers {
 
     /*
 

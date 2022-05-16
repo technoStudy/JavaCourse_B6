@@ -1,6 +1,6 @@
 package Day14;
 
-public class Task2_WhileLoop {
+public class Task2_WhileLoop_PrintOddNumbers {
 
 
     /*
