@@ -20,9 +20,8 @@ public class Task3_Break {
 
         for (int i = 0; i <= limit; i++) {
 
-            if (i > 10) {
+            if (i > 10)
                 break;
-            }
 
             System.out.println(i);
 
