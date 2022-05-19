@@ -1,6 +1,6 @@
 package Day16;
 
-public class Task2_NestedLoop {
+public class Task_NestedLoop2 {
 
     // print following pattern
     // *****
