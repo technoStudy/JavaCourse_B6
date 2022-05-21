@@ -20,6 +20,7 @@ public class Task5 {
 
         // PART 2
 
+
         String[] copyOfVeggies = new String[veggies.length];
 
 //        copyOfVeggies[0] = veggies[0];
@@ -29,9 +30,6 @@ public class Task5 {
 
         for (int i = 0; i < veggies.length; i++)
             copyOfVeggies[i] = veggies[i];
-
-        for (int i = 0; i < copyOfVeggies.length; i++)
-            System.out.println(copyOfVeggies[i]);
 
     }
 
