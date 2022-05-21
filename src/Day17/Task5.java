@@ -30,6 +30,9 @@ public class Task5 {
         for (int i = 0; i < veggies.length; i++)
             copyOfVeggies[i] = veggies[i];
 
+        for (int i = 0; i < copyOfVeggies.length; i++)
+            System.out.println(copyOfVeggies[i]);
+
     }
 
 }
