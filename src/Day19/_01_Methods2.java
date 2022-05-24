@@ -1,6 +1,6 @@
 package Day19;
 
-public class _02_Methods {
+public class _01_Methods2 {
 
     public static void main(String[] args) {
 
