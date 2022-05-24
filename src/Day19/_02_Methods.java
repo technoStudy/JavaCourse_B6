@@ -9,13 +9,9 @@ public class _02_Methods {
     }
 
 
-
     public static void printHello5Times() {
-        System.out.println("Hello");
-        System.out.println("Hello");
-        System.out.println("Hello");
-        System.out.println("Hello");
-        System.out.println("Hello");
+        for (int i = 0; i < 5; i++)
+            System.out.println("Hello");
     }
 
 }
