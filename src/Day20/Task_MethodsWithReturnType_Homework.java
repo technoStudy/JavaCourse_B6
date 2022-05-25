@@ -49,4 +49,9 @@ public class Task_MethodsWithReturnType_Homework {
         return count;
     }
 
+
+    public static boolean isDigit(char character) {
+        return (character >= '0' && character <= '9');
+    }
+
 }
