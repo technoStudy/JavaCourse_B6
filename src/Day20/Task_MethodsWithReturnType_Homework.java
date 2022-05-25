@@ -19,6 +19,12 @@ public class Task_MethodsWithReturnType_Homework {
 //    public static boolean method(String str){}
 //    you can have a method like this.
 
+    public static void main(String[] args) {
+
+        System.out.println(countLetters("dasjhdk834871HJDa2839"));
+
+    }
+
 
     public static boolean checkIfLengthIs8(String str) {
 //        boolean is8 = str.length() >= 8;
@@ -35,6 +41,19 @@ public class Task_MethodsWithReturnType_Homework {
             isLetter = true;
 
         return isLetter;
+    }
+
+
+    public static int countLetters(String str) {
+
+        int count = 0;
+
+        for (int i = 0; i < str.length(); i++) {
+            char character = str.charAt(i);
+            if (checkIfLetter(character))
+                count++;
+        }
+        return count;
     }
 
 }
