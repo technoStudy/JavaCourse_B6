@@ -19,13 +19,6 @@ public class Task_MethodsWithReturnType_Homework {
 //    public static boolean method(String str){}
 //    you can have a method like this.
 
-    public static void main(String[] args) {
-
-        System.out.println(countLetters("dasjhdk834871HJDa2839"));
-
-    }
-
-
     public static boolean checkIfLengthIs8(String str) {
 //        boolean is8 = str.length() >= 8;
 //        return is8;
