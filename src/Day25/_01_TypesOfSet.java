@@ -2,6 +2,7 @@ package Day25;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
 public class _01_TypesOfSet {
 
@@ -31,6 +32,19 @@ public class _01_TypesOfSet {
         countriesLinkedHashSet.add("France");
 
         System.out.println(countriesLinkedHashSet);
+
+
+        // TreeSet -- ordered - it stores elements in ascending order - Doesn't allow duplicates
+        TreeSet<String> countriesTreeSet = new TreeSet<>();
+        countriesTreeSet.add("USA");
+        countriesTreeSet.add("France");
+        countriesTreeSet.add("Turkey");
+        countriesTreeSet.add("China");
+        countriesTreeSet.add("Germany");
+        countriesTreeSet.add("Mexico");
+        countriesTreeSet.add("France");
+
+        System.out.println(countriesTreeSet);
 
     }
 
