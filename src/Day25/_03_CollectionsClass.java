@@ -32,6 +32,20 @@ public class _03_CollectionsClass {
         Collections.sort(numbersList, Collections.reverseOrder());
         System.out.println("ArrayList after using reverseOrder method: " + numbersList);
 
+        // max() -- to find the biggest number in Collection
+        Integer maxValue = Collections.max(numbersList);
+        System.out.println("Max value for ArrayList: " + maxValue);
+
+        // min() -- to find the smallest number in Collection
+        Integer minValue = Collections.min(numbersList);
+        System.out.println("Min value for ArrayList: " + minValue);
+
+        // max() and min() methods can be used for Sets too!
+        Integer maxValueForSet = Collections.max(numbersSet);
+        System.out.println("Max value for Set: " + maxValueForSet);
+
+        Integer minValueForSet = Collections.min(numbersSet);
+        System.out.println("Min value for Set: " + minValueForSet);
 
     }
 
