@@ -1,9 +1,6 @@
 package Day27;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
+import java.util.*;
 
 public class _02_MapRecapTask {
 
@@ -41,6 +38,14 @@ public class _02_MapRecapTask {
         Collection<ArrayList<String>> values = groupsAndMembers.values();
         for (ArrayList<String> list : values){
             System.out.println(list.size());
+        }
+
+
+        // Solution 2
+        Set<String> keys = groupsAndMembers.keySet();
+        for (String key : keys) {
+            ArrayList<String> group = groupsAndMembers.get(key);
+            System.out.println("Number of members in: " + key + " " + group.size());
         }
 
     }
