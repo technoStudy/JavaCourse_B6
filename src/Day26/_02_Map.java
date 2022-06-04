@@ -1,5 +1,7 @@
 package Day26;
 
+
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 
@@ -44,6 +46,34 @@ public class _02_Map {
         // Printing all the values of Map
         for (String key : keys)
             System.out.println(key + " = " + salaries.get(key));
+
+        // values() -- method will return all the values from map
+        Collection<Integer> values = salaries.values();
+        System.out.println("Printing all the values of map: " + values);
+
+        // Printing values one by one
+        for (Integer element : values)
+            System.out.println(element);
+
+        // size()
+        int sizeOfMap = salaries.size();
+        System.out.println("Size of Map: " + sizeOfMap);
+
+        // isEmpty
+        boolean isEmpty = salaries.isEmpty();
+        System.out.println(isEmpty);
+
+        // containsKey() -- return boolean - checks if map contains key or not
+        boolean isMapContainsAlex = salaries.containsKey("Alex");
+        System.out.println("Map contains \"Alex\": " + isMapContainsAlex);
+
+        // containsValue() -- return boolean - checks if map contains value
+        boolean isMapContains500000 = salaries.containsValue(500_000);
+        System.out.println("Map contains \"500000\": " + isMapContains500000);
+
+        // clear() -- removes all the entries from map
+        salaries.clear();
+        System.out.println("Salaries map after clear(): " + salaries);
 
     }
 
