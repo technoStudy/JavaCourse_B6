@@ -3,7 +3,7 @@ package Day26;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Task_2DCollections {
+public class Task_2D_Collections {
 
     // TASK
     // Create 2D ArrayList which can store String ArrayLists
