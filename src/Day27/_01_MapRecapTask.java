@@ -45,6 +45,13 @@ public class _01_MapRecapTask {
         }
 
 
+        // ****************** PART 2 *********************
+
+        if (hashMap.containsKey("Three")) {
+            hashMap.put("Three", 33); // update value for key "Three"
+        }
+
+
     }
 
 }
