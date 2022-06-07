@@ -23,8 +23,6 @@ public class Main {
         System.out.println("Lucy is sleeping after wake up method: " + lucy.isSleeping);
         lucy.snoring();
 
-
-
         // ************************************************ //
 
         Dog max = new Dog();
@@ -41,6 +39,18 @@ public class Main {
 
         max.wakeUp();
         System.out.println(max.isSleeping);
+
+        // *********************************************** //
+
+        Dog cooper = new Dog();
+        cooper.breed = "Chow Chow";
+        cooper.size = "Medium";
+        cooper.age = 3;
+        cooper.color = "Brown";
+        cooper.isSleeping = true;
+
+        cooper.wakeUp();
+        System.out.println(cooper.isSleeping);
 
     }
 
