@@ -1,0 +1,8 @@
+  TASK - OOP Intro (Objects and Classes)
+
+  Part 1
+    1-Create a class called Cat with
+       2 properties and 1 method that prints "Meow" sound
+
+    2-Create 2 objects of this class,
+       set their properties and call their methods
