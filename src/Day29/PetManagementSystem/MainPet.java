@@ -8,6 +8,7 @@ public class MainPet {
         eagle.color = "Grey";
         eagle.age = 10;
         eagle.type = "Bald Eagle";
+
         eagle.listOfNeeds = new String[3];
         eagle.listOfNeeds[0] = "Water";
         eagle.listOfNeeds[1] = "Meat";
@@ -21,6 +22,25 @@ public class MainPet {
         eagle.printProperties();
         eagle.owner.printOwnerInfo();
 
+
+
+
+        Fish nemo = new Fish();
+        nemo.color = "Orange and White";
+        nemo.age = 1;
+        nemo.type = "Clownfish";
+
+        nemo.listOfNeeds = new String[2];
+        nemo.listOfNeeds[0] = "Food";
+        nemo.listOfNeeds[1] = "Father";
+
+        nemo.owner = new Owner();
+        nemo.owner.name = "Emma";
+        nemo.owner.age = 25;
+        nemo.owner.gender = "Female";
+
+        nemo.printProperties();
+        nemo.owner.printOwnerInfo();
 
     }
 
