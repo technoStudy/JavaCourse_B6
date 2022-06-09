@@ -1,0 +1,28 @@
+-Part 1-
+  - Create a class called Employee with following fields and methods:
+        a) employeeName (field)
+        b) title (field)
+        c) ssn (field)
+
+        d) printProperties (method)
+
+
+
+-Part 2-
+  Create a class called Company with following fields and methods:
+        a) companyName (field)
+        b) yearCompanyFounded (field)
+        c) companyField (field)
+        d) ownerOfCompany (field)
+        e) employee (field - type of field should be Employee!)
+
+        f) hireEmployee (method - when you call this method you're going to initialize employee details - you need to get employee details as parameters)
+        g) fireEmployee (method - when you call this method you're going to remove employee object <employee object should be null>)
+        h) printProperties (method - if employee object is not null then this method should print employee information as well)
+
+
+
+-Part 3-
+  Create main class and create new Company objects and initialize all the properties and print them all!
+
+  Note: When you're initializing employee use hireEmployee and fireEmployee methods do not initialize manually!!!
