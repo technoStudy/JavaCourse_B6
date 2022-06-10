@@ -1,0 +1,10 @@
+    Task - Bank Account
+
+    Part 1
+        - create a class called BankAccount
+        - with fields: customerName, customerBalance = 0; -> instance fields
+        - deposit and withdraw -> instance methods
+
+
+    Part 2
+        - keep track of how much money bank has
