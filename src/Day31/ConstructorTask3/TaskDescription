@@ -1,0 +1,15 @@
+    TASK
+
+    -Create a class called Profile with following attributes:
+        String firstName;
+        String lastName;
+        String address;
+        String birthDate;
+        String phone;
+        String email;
+        String nickname;
+
+    -Create a constructor to initialize all attributes
+    -Create a constructor to initialize firstName and lastName only
+    -Create a constructor to initialize firstName, lastName, birthDate only
+    -Create a constructor to initialize nickname only
