@@ -5,7 +5,7 @@ public class BankAccount {
     // Constructor : is a special method which is used to initialize objects!
     //               so it will be called when you create an object!
 
-    // Every class has a constructor even if we did not create any (default constructor)
+    // Every class has a constructor even if we did not create any (default constructor) public BankAccount() {}
     // Constructor will always have the same name with the class!
 
     // Method VS Constructor !!!!
