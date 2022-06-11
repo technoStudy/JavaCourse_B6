@@ -1,0 +1,5 @@
+    TASK
+
+    -Create a class called Rectangle, with 2 attributes width and length;
+    -Create a constructor with 2 parameters, width and length
+    -Create a method to calculate the area of Rectangle
