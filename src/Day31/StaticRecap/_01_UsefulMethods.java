@@ -1,4 +1,4 @@
-package Day31;
+package Day31.StaticRecap;
 
 public class _01_UsefulMethods {
 
