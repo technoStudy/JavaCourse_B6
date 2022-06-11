@@ -11,6 +11,9 @@ public class BankAccountMain {
         System.out.println(bankAccount.customerName);
         System.out.println(bankAccount.customerSSN);
 
+
+        BankAccount bankAccount2 = new BankAccount("Emily", 12345, "NYC");
+
     }
 
 }
