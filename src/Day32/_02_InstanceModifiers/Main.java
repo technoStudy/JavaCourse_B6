@@ -4,7 +4,7 @@ import Day32._02_InstanceModifiers.DefaultModifier.Truck;
 import Day32._02_InstanceModifiers.ProtectedModifier.Person;
 import Day32._02_InstanceModifiers.PublicModifier.Car;
 
-public class Main {
+public class Main extends Person {
 
     public static void main(String[] args) {
 
@@ -18,7 +18,9 @@ public class Main {
 //        We cannot access - because constructor is package-private (default)
 //        Truck truck = new Truck("F150");
 
-//        Person person = new Person("Halit");
+        Main main = new Main();
+        main.name = "Mark";
+        main.printPersonName();
 
     }
 

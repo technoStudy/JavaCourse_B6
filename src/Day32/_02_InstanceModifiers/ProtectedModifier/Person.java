@@ -4,9 +4,7 @@ public class Person {
 
     protected String name;
 
-    protected Person(String name) {
-        this.name = name;
-    }
+    protected Person() { }
 
     protected void printPersonName() {
         System.out.println(name);
