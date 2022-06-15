@@ -12,6 +12,8 @@ public class Main {
         System.out.println(Directions.EAST);
         System.out.println(Directions.WEST.shortName);
 
+        Months firstMonth = Months.JANUARY;
+
     }
 
 }
