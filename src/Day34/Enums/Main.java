@@ -9,6 +9,9 @@ public class Main {
         Days lastDayOfTheWeek = Days.SUNDAY;
         System.out.println(lastDayOfTheWeek);
 
+        System.out.println(Directions.EAST);
+        System.out.println(Directions.WEST.shortName);
+
     }
 
 }
