@@ -1,0 +1,5 @@
+Create a class called Student with following private fields
+    - Name (Read-only) - you should initialize this field with constructor
+    - Age (Both Read and Write)
+    - Country (Both Read and Write)
+    - Grade (Both Read and Write)
