@@ -28,6 +28,8 @@ public class Employee {
 
     // Setter
     public void setBaseSalary(int baseSalary) {
+        if (baseSalary <= 0)
+            throw new IllegalArgumentException("Base Salary cannot be less than 0!");
         this.baseSalary = baseSalary;
     }
 
@@ -38,6 +40,8 @@ public class Employee {
 
     // Setter
     public void setHourlyRate(int hourlyRate) {
+        if (hourlyRate <= 0)
+            throw new IllegalArgumentException("Hourly Rate cannot be less than 0!");
         this.hourlyRate = hourlyRate;
     }
 

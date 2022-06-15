@@ -16,6 +16,18 @@ public class Main {
         System.out.println("Wage: " + wage);
 
 
+        /**
+         EMPLOYEE EXAMPLE WITHOUT ENCAPSULATION
+
+         Employee employee = new Employee("Jack", 11111111);
+
+         employee.baseSalary = -100;
+         employee.hourlyRate = -55;
+
+         System.out.println(employee.SSN)
+
+         */
+
     }
 
 }
