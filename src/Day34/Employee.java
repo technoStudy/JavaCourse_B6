@@ -2,6 +2,11 @@ package Day34;
 
 public class Employee {
 
+    // Encapsulation
+        // Bundle all the related data and methods in a single unit!
+        // Can hide data! (by making fields private)
+        // Can create public getter(read data - get data) and public setter(updating, initializing or setting data) methods to access private fields!
+
     private String name;
     private int SSN;
     private int baseSalary;
