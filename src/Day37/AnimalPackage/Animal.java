@@ -1,4 +1,4 @@
-package Day37;
+package Day37.AnimalPackage;
 
 public class Animal {
 
