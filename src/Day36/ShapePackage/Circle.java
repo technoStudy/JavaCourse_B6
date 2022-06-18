@@ -1,4 +1,4 @@
-package Day36;
+package Day36.ShapePackage;
 
 public class Circle extends Shape {
 
