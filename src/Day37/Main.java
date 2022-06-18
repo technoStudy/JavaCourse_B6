@@ -11,6 +11,15 @@ public class Main {
             cat.eat();
             cat.sleep();
 
+            System.out.println("**********************************");
+
+            Dog dog = new Dog();
+            dog.name = "Charlie";
+            dog.age = 5;
+
+            dog.eat();
+            dog.sleep();
+
     }
 
 }
