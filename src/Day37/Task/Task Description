@@ -1,0 +1,7 @@
+Task (Overriding)
+
+Create a class called "Human" with some fields and methods
+    - Create another class called Baby which extends Human class
+            (override methods from parent)
+    - Create another class called Grown(Man-Woman) which extends Human class
+            (override methods from parent)
