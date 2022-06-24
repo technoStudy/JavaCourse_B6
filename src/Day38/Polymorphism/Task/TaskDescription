@@ -1,0 +1,19 @@
+POLYMORPHISM TASK (run time - compile time)
+
+- Create a class called Animal
+    * create methods called run(), makeSound() in Animal class
+
+- Create subclasses of Animal: Cat, Dog, Horse
+    * override makeSound() in subclasses
+
+---------------------------------------------------------------
+
+- In Animal class (Overload run method)
+    * run(int meters) method -> prints something like: Animal runs 4 meters
+    * run(int units, String unit) method -> prints something like: Animal runs 2 units(kilometer, mile...)
+
+---------------------------------------------------------------
+
+- Create Main class
+    * create objects (Animal animal1 = new Cat(); - Animal animal2 = new Dog(); ....)
+    * call the run() and makeSound() method for each object
