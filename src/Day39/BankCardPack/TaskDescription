@@ -1,0 +1,15 @@
+    TASK
+
+    - Create a BankCard parent class (Abstract Class)
+        -methods: deposit and withdraw (abstract methods)
+        -variable: create as you need(name, ssn...) (use encapsulation)
+
+    - Create two types of cards, credit and debit that extend BankCard class
+        -debit card cannot overdraft (while implementing abstract methods do it accordingly)
+        -credit card can overdraft (while implementing abstract methods do it accordingly)
+
+-------------------------------------
+
+    create Demo class to check:
+        debit card cannot overdraft
+        credit card can overdraft
