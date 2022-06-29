@@ -9,7 +9,7 @@ public class Demo {
         Account account = new Account();
 
         try {
-            account.deposit(100);
+            account.deposit(-100);
         } catch (IOException e) {
             System.out.println("Input is wrong!");
         }
