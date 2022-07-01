@@ -1,0 +1,3 @@
+create a static method that accepts string as parameter
+try to get first letter of the string and return it
+handle all possible exceptions
